@@ -14,6 +14,7 @@ export class AppController {
 
     @Get()
     displayMessage() {
+        this.appService.emitConfig();
         return 'Whoops!'
     }
 }
