@@ -1,5 +1,5 @@
 export default {
     development: process.env.NODE_ENV == 'development',
-    printerName: 'Test Printer',
-    printerAddress: '123123',
+    printerName: 'Point Break',
+    printerAddress: '10.0.2.226',
 };
